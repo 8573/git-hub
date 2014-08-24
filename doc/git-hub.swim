@@ -82,7 +82,7 @@ first turn on Git command completion with something like this:
 
 Then turn on `git-hub` completion with something like this:
 
-  source /path/to/git-hub/lib/git-hub.d/completion
+  eval "$(cd /path/to/git-hub && ./tool/generate-completion.pl < doc/git-hub.swim)"
 
 = Plugins
 
